@@ -67,7 +67,7 @@ button = Button(root, text="Zamień", command=przelicz)
 button.grid(row=5, column=0, columnspan=2, pady=5)
 
 label5 = Label(root, text="Author Alan Kołodziej")
-label6 = Label(root,text="Rates By Exchange Rate API (https://www.exchangerate-api.com)")
+label6 = Label(root, text="Rates By Exchange Rate API (https://www.exchangerate-api.com)")
 label5.grid(row=6, column=0, columnspan=2, sticky="W")
 label6.grid(row=7, column=0, columnspan=2, sticky="W")
 root.mainloop()
